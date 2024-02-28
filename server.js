@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const app = express();
-const port = 3001; 
+const port = 'https://pocketnotess-backend-production.up.railway.app/'; 
 
 app.use(cors());
 app.use(express.json());
