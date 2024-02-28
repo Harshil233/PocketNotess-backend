@@ -8,7 +8,7 @@ const port = 3001;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/pocketnotes');
+mongoose.connect('mongodb+srv://harshil233:harshil123@cluster0.qjkpbbz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 
 function generateDeviceIdentifier() {
     const randomString = Math.random().toString(36).substring(7);
